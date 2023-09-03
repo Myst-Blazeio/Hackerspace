@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.parent {
+    /* display: flex; */
+    width: 100vw;
+    height: 100vh;
+
+}
+nav {
+   width: 100%;
+   height: 100px;
+   position:absolute;
+   background-color:#000000;
+}
+nav ul{
+    /* padding: 15px 10px 10px 10px; */
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+nav li a {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    padding: 30px 10px 30px 10px;
+    text-decoration: none;
+}
+.about{ 
+    width:100%;
+    display: flex;
+    height:100%;
+}
+.info {
+    width: 465;
+    height: 70px;
+   place-items: left;
+   background-color: #a6a6a4;
+   /* place-items: center; */
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 10%;
+   border-radius: 50px ;
+   display: flex;
+   align-items: center;
+}
+.join {
+    height: 46px;
+    width: 106px;
+    border-radius: 50px;
+    background-color: #e75f00;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* padding-top: 10px; */
+    margin-top: 25px;
+    margin-left: 20%;
+}
+.media{
+   display: flex;
+   margin-left: 120%;   
+}
+.li_logo{
+    width: 60px;
+}
+.logo {
+    scale: 0.5;
+}
+.center{
+    /* margin-top: 100px; */
+    width: 100%;
+    height: 100vh;
+  /* position:fixed; */
+  /* background-color: #0a0a0a; */
+
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.background {
+    width: 1308px;
+    height: 1276px;
+    background-image: url("background.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.welcome {
+    margin-left: 5%;
+    margin-top: 150px;
+}
+.search{
+    margin-top: 100px;
+}
+.p1 {
+    color: #fff;
+    font-size: 50px;
+}
+.head {
+    color:#e75f00;
+    font-size: 80px;
+}
+.p2 {
+    color: #a6a6a4;
+    font-size: 30px;
+}
+.side {
+    display: flex;
+}
+.dive {
+    color: gray;
+    width: 30%;
+margin-left:60%;
+margin-top: 5%;
+}
+#search {
+    width: 20%;
+margin-left:60%;
+margin-top: 3%;
+border-color: black;
+background-color: gray;
+padding: 5px;
+}
+#search::placeholder{
+    color:white;
+}
+.head2 {
+    font-size: 40px;
+    color:#e75f00;
+    background-color: black;
+}
+.p3 {
+    font-size: 35px;
+    color: rgb(226, 216, 216);
+    background-color: black;
+
+}
+.p4 {
+    font-size: 20px;
+    color: gray;
+    background-color: black;
+
+}
+.footer_left{
+   border-left: 50px #000000;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    display: flex;
+    width: 449px;
+    height: 63px;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.contact ul{
+    list-style-type: none;
+}
+.contacts{
+    height: 46px;
+    width: 106px;
+    border-radius: 50px;
+    background-color: #e75f00;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-top: 10px; */
+    margin-top: 25px;
+    margin-left: 20%;
+}
+.learn{
+    height: 46px;
+    width: 106px;
+    border-radius: 50px;
+    background-color: #e75f00;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-top: 10px; */
+    margin-top: 25px;
+    margin-left: 20%;
+}
+.web {
+    width: 550px;
+    height: 525px;
+    position: relative;
+    
+}
+
+.ellipse {
+    width: 465px;
+    height: 470px;
+    position: relative;
+    margin: 27px 42px 27px 42px;
+}
+
+.html {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: -17px;
+    left: 230px;
+    transition: all 0.5s;
+}
+
+.ts {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 222px;
+    left: 0px;
+    transition: all 0.5s;
+}
+
+.css {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 212px;
+    left: 450px;
+    transition: all 0.5s;
+}
+
+.atom {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 405px;
+    left: 100px;
+    transition: all 0.5s;
+}
+
+.js {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 405px;
+    left: 380px;
+    transition: all 0.5s;
+}
+
